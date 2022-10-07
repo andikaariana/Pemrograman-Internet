@@ -1,0 +1,76 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.judul {
+  text-align: center;
+}
+
+hr {
+  width: 500;
+}
+
+.link a {
+  text-decoration: none;
+  color: blue;
+}
+
+.link :hover {
+  color: blueviolet;
+}
+
+.container {
+  background-color: azure;
+  padding: 10px;
+  margin: auto;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+  margin-bottom: 10px;
+  margin-top: 40px;
+  border: 1px solid lightgray;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+.social-media {
+  text-align: center;
+  font-size: 30px;
+}
+
+.social-media .fa {
+  font-size: 20px;
+}
+
+.social-media .fa:hover {
+  opacity: 0.7;
+}
+
+.social-media .fa-facebook {
+  color: #3b5998;
+}
+
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-github {
+  color: black;
+}
